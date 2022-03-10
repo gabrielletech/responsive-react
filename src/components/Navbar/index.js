@@ -2,6 +2,7 @@ import React from 'react'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu,
         NavItem, NavLink, NavBtnLink, NavBtn } from './NavbarElements'
 import { FaBars } from 'react-icons/fa' 
+import Sidebar from '../Sidebar'
 
 const Navbar = () => {
   return (
@@ -30,6 +31,7 @@ const Navbar = () => {
                         <NavBtnLink to='/sign-in'>Sign In</NavBtnLink>
                     </NavBtn>
             </NavbarContainer>
+            <Sidebar />
         </Nav>
     </>
   )
