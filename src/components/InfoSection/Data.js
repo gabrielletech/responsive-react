@@ -10,5 +10,9 @@ export const homeObjOne = {
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img: req
-}
+    img: require('../../images/rolled.jpg'),
+    alt: 'Stacked money',
+    dark:true,
+    primary: true,
+    darkText: false,
+};
